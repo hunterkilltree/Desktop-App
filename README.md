@@ -36,6 +36,9 @@ npm init
 npm install electron
 npm intall --save-dev @types/electron
 npm install typescript --save
+tsc --init
+# Start buid
+npm run build
 
 ```
 
