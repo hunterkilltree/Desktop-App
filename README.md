@@ -18,6 +18,8 @@ Benefits:
 Examples of using Electron: Atom, Slack, Visual Studio Code,...
 
 #### Create a Project Electron with typescript
+
+Quick start
 ```
 # Clone this repository
 git clone https://github.com/electron/electron-quick-start-typescript
@@ -28,6 +30,15 @@ npm install
 # Run the app
 npm start
 ```
+Normal start
+```
+npm init
+npm install electron
+npm intall --save-dev @types/electron
+npm install typescript --save
+
+```
+
 
 
 

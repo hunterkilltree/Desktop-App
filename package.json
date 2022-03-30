@@ -1,0 +1,27 @@
+{
+  "name": "desktop-app",
+  "version": "1.0.0",
+  "description": "Electron is a framework for building cross-plaftform desktop applications written in web technologies. This is the framework because it comes bundled with a number of tools that help dev build their application. For example, it comes with Chromium(Browser APIs) this allows to access to dome APIs for UI. It also has the latest version of Node.js(able to use ACME script 2015). Also Electrons APIs.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lquangtrai/Desktop-App.git"
+  },
+  "author": "hunterkilltree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lquangtrai/Desktop-App/issues"
+  },
+  "homepage": "https://github.com/lquangtrai/Desktop-App#readme",
+  "dependencies": {
+    "electron": "^18.0.0",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10"
+  }
+}
