@@ -39,7 +39,7 @@ npm install typescript --save
 tsc --init
 # Start buid
 npm run build
-
+npm run
 ```
 
 
